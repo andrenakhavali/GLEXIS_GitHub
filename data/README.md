@@ -8,4 +8,3 @@ The main GLEXIS data-link browser is available at:
 
 https://andrenakhavali.github.io/GLEXIS_data_links_public/
 
-Add the final data DOI here once the formal data record is published.
