@@ -91,7 +91,11 @@ Important limitations:
 
 ## Data Availability
 
-The raster GeoTIFF files, tabular CSV products, threshold NetCDF files, and full release metadata are deposited separately from this code repository. Add the final data DOI or repository URL here once the formal data record is published.
+The main GLEXIS data-link browser is available at:
+
+https://andrenakhavali.github.io/GLEXIS_data_links_public/
+
+The raster GeoTIFF files, tabular CSV products, threshold NetCDF files, and full release metadata are deposited separately from this code repository. Add the final data DOI here once the formal data record is published.
 
 See `data/README.md` and `release_metadata/release_file_manifest.csv` for the expected data-package structure.
 
