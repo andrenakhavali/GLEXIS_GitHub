@@ -1,0 +1,5 @@
+statistic,format,layers,layer_order,units,missing_or_invalid_convention,definition
+monthly_counts,GeoTIFF,12,January-December,days,NoData outside the valid analysis domain,event-day count
+monthly_min_magnitude,GeoTIFF,12,January-December,degC for temperature; mm d-1 for precipitation; m s-1 for wind; dimensionless Z_y for water balance,NaN/NA for no-event or invalid cells,minimum driver value conditional on event days
+monthly_mean_magnitude,GeoTIFF,12,January-December,degC for temperature; mm d-1 for precipitation; m s-1 for wind; dimensionless Z_y for water balance,NaN/NA for no-event or invalid cells,mean driver value conditional on event days
+monthly_max_magnitude,GeoTIFF,12,January-December,degC for temperature; mm d-1 for precipitation; m s-1 for wind; dimensionless Z_y for water balance,NaN/NA for no-event or invalid cells,maximum driver value conditional on event days

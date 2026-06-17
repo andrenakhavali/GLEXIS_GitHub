@@ -1,0 +1,30 @@
+audit_group,check,status,details
+Archive completeness and expected inputs,all_expected_inputs_exist,PASS,10 of 10 inputs exist
+Hazard and variant propagation,canonical_historical_hazards,PASS,"Canonical hazards: cold, drought, heat, rain, wind"
+"Model, country, and year coverage",canonical_five_models,PASS,Every finite canonical ensemble country-month contains five models
+"Model, country, and year coverage",actual_coverage_country_universe,PASS,"Coverage universe includes: TWN, FJI, BHS, BLZ, CYP, SLB, TLS"
+Hazard and variant propagation,one_main_variant_per_hazard,PASS,Every headline hazard has exactly one central main variant
+Hazard and variant propagation,drought_headline_frequency_plausible,PASS,Headline drought mean: 2.839 days/year using drought_q2_main
+Hazard and variant propagation,wind_main_propagated,PASS,Headline wind is consistently wind_main
+External-data mapping and joins,headline_emdat_strict_only,PASS,Headline EM-DAT events are strict-only
+External-data mapping and joins,emdat_verified_positive_uses_affected_or_deaths,PASS,Verified-positive threshold: Total Affected >= 100 OR Total Deaths >= 10
+Figure-source and processing consistency,europe_main_is_europe_only,PASS,38 Europe-only countries
+Figure-source and processing consistency,all_outputs_use_central_definition_lookup,PASS,"Country, global, map, and seasonal outputs use the same five headline variants"
+"Model, country, and year coverage",fig01_matches_model_specific_maps,PASS,Fig01 values equal the mean of model-specific map values
+Figure-source and processing consistency,seasonal_sum_matches_global_annual,PASS,Area-weighted monthly climatology sums to area-weighted annual mean
+Figure-source and processing consistency,fig02_matches_final_global_year,PASS,Fig02 source is the final area-weighted global-year file
+Figure-source and processing consistency,strict_broad_not_mixed,PASS,No broad EM-DAT rows occur in headline validation
+External-data mapping and joins,physical_reference_uses_domain_weights,PASS,"Europe-only physical agreement uses physical-reference point coverage, not whole-country area"
+Figure-source and processing consistency,monthly_positive_only_excludes_drought,PASS,Monthly positive-only SI comparison excludes slow-onset drought
+External-data mapping and joins,emdat_exclusion_figure_separates_mappings,PASS,Strict and broad EM-DAT exclusions are faceted separately
+Figure-source and processing consistency,exact_year_evidence_is_diagnostic,PASS,Expected exact-year mismatch is shown as diagnostic rather than failure
+Figure-source and processing consistency,fig01_uses_interpretable_map_caps,PASS,Fig01 uses hazard-specific saturated scales; wind cap is 30 days/year
+Figure-source and processing consistency,drought_q5_not_headline,PASS,Drought q5 is sensitivity-only broad dryness exposure
+Figure-source and processing consistency,antarctica_excluded_from_plotting_geometry,PASS,Antarctica is absent from all plotting geometry
+Figure-source and processing consistency,antimeridian_safe_plotting_geometry,PASS,Maximum wrapped plotting-polygon longitude width: 152.648 degrees
+Figure-source and processing consistency,every_figure_has_source_csv,PASS,20 of 20 figure source CSVs exist
+Figure-source and processing consistency,all_manifest_figures_rendered,PASS,20 of 20 PNG/PDF pairs exist
+Key uniqueness,unique_current_figure_versions,PASS,20 unique current figures
+Figure-source and processing consistency,no_old_version_files,PASS,No old/test/backup/version-copy filenames in fresh results
+Figure-source and processing consistency,reproducibility_runner_packaged,PASS,"Complete R pipeline, including transactional runner, is packaged in results/scripts"
+Figure-source and processing consistency,future_ssp370_si_is_rendered,PASS,"Future SSP370 scenario-consistency diagnostic is included as SI, not validation"

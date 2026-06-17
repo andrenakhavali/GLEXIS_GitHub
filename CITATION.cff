@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite the GLEXIS Scientific Data Data Descriptor and the final archived code release."
+title: "GLEXIS: Global multi-model climate-extreme-day data production and validation code"
+type: software
+version: 1.0.0
+date-released: 2026-06-15
+authors:
+  - family-names: Nakhavali
+    given-names: Andre
+
+license: MIT
+keywords:
+  - climate extremes
+  - ISIMIP3b
+  - CMIP6
+  - climate hazard

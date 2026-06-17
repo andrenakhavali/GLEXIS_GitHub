@@ -1,0 +1,7 @@
+metric,value,details
+annual_geotiff_files_in_primary_log,35040,"Expected native annual archive count: 35,040"
+failed_geotransform_corrections,0,Zero required
+corrected_extent,-180/180/-60/90,Cell-edge bounds
+corrected_resolution,0.5 x 0.5 degrees,Cell centres match the release lookup
+value_preservation_test,PASS,"Pixel values, NoData mask, band names, and units unchanged in test raster"
+representative_count_nodata_audit,PASS,"Historical and future cold, rain, and water-balance samples retain NoData outside domain"

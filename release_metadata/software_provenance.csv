@@ -1,0 +1,10 @@
+environment,software_or_dataset,version_or_access,role_or_qualification
+Production environment,R,4.2.1,Recorded in GLEXIS_historical_v2/documentation/processing_manifest.yaml
+Production environment,ncdf4,1.21,NetCDF input and threshold access
+Production environment,terra,1.7.71,Raster processing and GeoTIFF writing
+Production environment,SPEI,1.8.1,Legacy baseline water-balance/SPEI-3 threshold workflow
+Production environment,sf,1.0.9,Vector geometry processing
+Production environment,rnaturalearth,0.3.2,Natural Earth 1:50m country and glaciated-area retrieval
+Production environment,Natural Earth,1:50m layers retrieved 2025-08-18,Downloaded glaciated-area source does not encode a separate release identifier
+Production environment,lubridate,1.9.2,Calendar-month operations
+Production environment,yaml,2.3.7,Production manifest writing

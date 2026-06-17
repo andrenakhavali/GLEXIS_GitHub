@@ -1,0 +1,3 @@
+period,model_year_variable_files_affected,triggered_operation,code_path_evidence,qualification
+historical,0,none in successful production runs,"All climate variables and PET are read with count=length(year_idx), where year_idx is derived from tasmax before the alignment safeguard.",Static implementation audit of GLEXIS_scripts/GLEXIS_historical.R; the archived production workflow did not emit a per-file runtime operation log.
+future SSPs,0,none in successful production runs,"All climate variables, derived gust, and PET have the tasmax-derived year_idx length before the alignment safeguard.",Static implementation audit of GLEXIS_scripts/GLEXIS_future_with_wind_gust.R; the archived production workflow did not emit a per-file runtime operation log.

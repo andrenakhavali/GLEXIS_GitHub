@@ -1,0 +1,409 @@
+file,column,inferred_type,definition
+baseline_frequency_audit_summary.csv,hazard,text,Legacy internal hazard identifier; map through hazard_variant_definition.csv
+baseline_frequency_audit_summary.csv,threshold_layer,text,See source-data or external-dataset documentation; retain original field meaning
+baseline_frequency_audit_summary.csv,threshold_probability,numeric,See source-data or external-dataset documentation; retain original field meaning
+baseline_frequency_audit_summary.csv,nominal_event_fraction,numeric,See source-data or external-dataset documentation; retain original field meaning
+baseline_frequency_audit_summary.csv,expectation,text,See source-data or external-dataset documentation; retain original field meaning
+baseline_frequency_audit_summary.csv,observed_fraction,numeric,See source-data or external-dataset documentation; retain original field meaning
+baseline_frequency_audit_summary.csv,observed_days_per_year,numeric,See source-data or external-dataset documentation; retain original field meaning
+baseline_frequency_audit_summary.csv,verdict,text,See source-data or external-dataset documentation; retain original field meaning
+dfo_flood_country_month.csv,country_iso3,text,ISO-like three-letter country code after Natural Earth fallback handling
+dfo_flood_country_month.csv,year,integer,Calendar year
+dfo_flood_country_month.csv,month,integer,"Calendar month, 1-12"
+dfo_flood_country_month.csv,hazard,text,Legacy internal hazard identifier; map through hazard_variant_definition.csv
+dfo_flood_country_month.csv,reported_events,integer,See source-data or external-dataset documentation; retain original field meaning
+dfo_flood_country_month.csv,reported_event_days,integer,See source-data or external-dataset documentation; retain original field meaning
+drought_wind_variant_frequency.csv,hazard,text,Legacy internal hazard identifier; map through hazard_variant_definition.csv
+drought_wind_variant_frequency.csv,variant,text,Internal or public-facing variant identifier
+drought_wind_variant_frequency.csv,annual_days,numeric,See source-data or external-dataset documentation; retain original field meaning
+drought_wind_variant_frequency.csv,role,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_country_month.csv,country_iso3,text,ISO-like three-letter country code after Natural Earth fallback handling
+emdat_strict_country_month.csv,year,integer,Calendar year
+emdat_strict_country_month.csv,month,integer,"Calendar month, 1-12"
+emdat_strict_country_month.csv,hazard,text,Legacy internal hazard identifier; map through hazard_variant_definition.csv
+emdat_strict_country_month.csv,reported_events,integer,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,DisNo.,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,Historic,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,Classification Key,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,Disaster Group,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,Disaster Subgroup,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,Disaster Type,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,Disaster Subtype,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,External IDs,unknown/all missing in sample,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,Event Name,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,ISO,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,Country,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,Subregion,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,Region,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,Location,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,Origin,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,Associated Types,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,OFDA/BHA Response,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,Appeal,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,Declaration,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,AID Contribution ('000 US$),unknown/all missing in sample,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,Magnitude,integer,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,Magnitude Scale,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,Latitude,unknown/all missing in sample,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,Longitude,unknown/all missing in sample,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,River Basin,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,Start Year,integer,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,Start Month,integer,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,Start Day,integer,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,End Year,integer,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,End Month,integer,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,End Day,integer,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,Total Deaths,integer,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,No. Injured,integer,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,No. Affected,integer,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,No. Homeless,integer,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,Total Affected,integer,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,Reconstruction Costs ('000 US$),unknown/all missing in sample,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,"Reconstruction Costs, Adjusted ('000 US$)",unknown/all missing in sample,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,Insured Damage ('000 US$),unknown/all missing in sample,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,"Insured Damage, Adjusted ('000 US$)",unknown/all missing in sample,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,Total Damage ('000 US$),integer,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,"Total Damage, Adjusted ('000 US$)",integer,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,CPI,numeric,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,Admin Units,unknown/all missing in sample,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,Entry Date,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,Last Update,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,latitude_num,unknown/all missing in sample,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,longitude_num,unknown/all missing in sample,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,country_iso3,text,ISO-like three-letter country code after Natural Earth fallback handling
+emdat_strict_events.csv,hazard,text,Legacy internal hazard identifier; map through hazard_variant_definition.csv
+emdat_strict_events.csv,mapping,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,eligible_country,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,valid_month,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,start_date,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,end_date,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,valid_coordinates,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,exclusion_reason,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,year,integer,Calendar year
+emdat_strict_events.csv,month,integer,"Calendar month, 1-12"
+emdat_strict_events.csv,total_affected_num,numeric,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,total_deaths_num,integer,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,impact_positive,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,actual_glexis_coverage,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,valid_start_month,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_strict_events.csv,revised_exclusion_reason,unknown/all missing in sample,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_country_month.csv,country_iso3,text,ISO-like three-letter country code after Natural Earth fallback handling
+emdat_verified_positive_country_month.csv,year,integer,Calendar year
+emdat_verified_positive_country_month.csv,month,integer,"Calendar month, 1-12"
+emdat_verified_positive_country_month.csv,hazard,text,Legacy internal hazard identifier; map through hazard_variant_definition.csv
+emdat_verified_positive_country_month.csv,reported_events,integer,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_country_month.csv,total_affected,numeric,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_country_month.csv,total_deaths,integer,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_country_year.csv,country_iso3,text,ISO-like three-letter country code after Natural Earth fallback handling
+emdat_verified_positive_country_year.csv,year,integer,Calendar year
+emdat_verified_positive_country_year.csv,hazard,text,Legacy internal hazard identifier; map through hazard_variant_definition.csv
+emdat_verified_positive_country_year.csv,reported_events,integer,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_country_year.csv,total_affected,numeric,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_country_year.csv,total_deaths,integer,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,DisNo.,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,Historic,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,Classification Key,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,Disaster Group,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,Disaster Subgroup,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,Disaster Type,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,Disaster Subtype,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,External IDs,unknown/all missing in sample,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,Event Name,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,ISO,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,Country,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,Subregion,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,Region,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,Location,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,Origin,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,Associated Types,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,OFDA/BHA Response,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,Appeal,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,Declaration,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,AID Contribution ('000 US$),unknown/all missing in sample,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,Magnitude,integer,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,Magnitude Scale,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,Latitude,unknown/all missing in sample,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,Longitude,unknown/all missing in sample,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,River Basin,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,Start Year,integer,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,Start Month,integer,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,Start Day,integer,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,End Year,integer,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,End Month,integer,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,End Day,integer,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,Total Deaths,integer,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,No. Injured,integer,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,No. Affected,integer,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,No. Homeless,integer,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,Total Affected,integer,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,Reconstruction Costs ('000 US$),unknown/all missing in sample,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,"Reconstruction Costs, Adjusted ('000 US$)",unknown/all missing in sample,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,Insured Damage ('000 US$),unknown/all missing in sample,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,"Insured Damage, Adjusted ('000 US$)",unknown/all missing in sample,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,Total Damage ('000 US$),integer,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,"Total Damage, Adjusted ('000 US$)",integer,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,CPI,numeric,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,Admin Units,unknown/all missing in sample,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,Entry Date,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,Last Update,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,latitude_num,unknown/all missing in sample,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,longitude_num,unknown/all missing in sample,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,country_iso3,text,ISO-like three-letter country code after Natural Earth fallback handling
+emdat_verified_positive_events.csv,hazard,text,Legacy internal hazard identifier; map through hazard_variant_definition.csv
+emdat_verified_positive_events.csv,mapping,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,eligible_country,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,valid_month,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,start_date,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,end_date,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,valid_coordinates,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,exclusion_reason,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,year,integer,Calendar year
+emdat_verified_positive_events.csv,month,integer,"Calendar month, 1-12"
+emdat_verified_positive_events.csv,total_affected_num,numeric,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,total_deaths_num,integer,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,impact_positive,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,actual_glexis_coverage,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,valid_start_month,text,See source-data or external-dataset documentation; retain original field meaning
+emdat_verified_positive_events.csv,revised_exclusion_reason,unknown/all missing in sample,See source-data or external-dataset documentation; retain original field meaning
+europe_physical_method_pairs.csv,country_iso3,text,ISO-like three-letter country code after Natural Earth fallback handling
+europe_physical_method_pairs.csv,month,integer,"Calendar month, 1-12"
+europe_physical_method_pairs.csv,hazard,text,Legacy internal hazard identifier; map through hazard_variant_definition.csv
+europe_physical_method_pairs.csv,glexis_fraction,numeric,See source-data or external-dataset documentation; retain original field meaning
+europe_physical_method_pairs.csv,reference_fraction,numeric,See source-data or external-dataset documentation; retain original field meaning
+europe_physical_method_pairs.csv,reference_weight,integer,See source-data or external-dataset documentation; retain original field meaning
+Fig01_mean_annual_headline_map.csv,country_iso3,text,ISO-like three-letter country code after Natural Earth fallback handling
+Fig01_mean_annual_headline_map.csv,country_name,text,Natural Earth country name
+Fig01_mean_annual_headline_map.csv,region,text,Natural Earth region
+Fig01_mean_annual_headline_map.csv,hazard,text,Legacy internal hazard identifier; map through hazard_variant_definition.csv
+Fig01_mean_annual_headline_map.csv,variant,text,Internal or public-facing variant identifier
+Fig01_mean_annual_headline_map.csv,mean_annual_days,numeric,Historical climatological annual event-day count
+Fig01_mean_annual_headline_map.csv,mean_valid_area_fraction,numeric,See source-data or external-dataset documentation; retain original field meaning
+Fig02_global_historical_timeseries.csv,year,integer,Calendar year
+Fig02_global_historical_timeseries.csv,hazard,text,Legacy internal hazard identifier; map through hazard_variant_definition.csv
+Fig02_global_historical_timeseries.csv,variant,text,Internal or public-facing variant identifier
+Fig02_global_historical_timeseries.csv,ensemble_mean,numeric,Arithmetic five-model ensemble mean
+Fig02_global_historical_timeseries.csv,model_min,numeric,Minimum among model summaries
+Fig02_global_historical_timeseries.csv,model_max,numeric,Maximum among model summaries
+Fig02_global_historical_timeseries.csv,model_sd,numeric,Standard deviation among model summaries
+Fig02_global_historical_timeseries.csv,n_models,integer,See source-data or external-dataset documentation; retain original field meaning
+Fig02_global_historical_timeseries.csv,anomaly,numeric,Annual ensemble mean minus the full-period mean
+Fig03_baseline_frequency_audit.csv,hazard,text,Legacy internal hazard identifier; map through hazard_variant_definition.csv
+Fig03_baseline_frequency_audit.csv,model,text,Climate model or ensemble label
+Fig03_baseline_frequency_audit.csv,month,integer,"Calendar month, 1-12"
+Fig03_baseline_frequency_audit.csv,threshold_layer,text,See source-data or external-dataset documentation; retain original field meaning
+Fig03_baseline_frequency_audit.csv,threshold_probability,numeric,See source-data or external-dataset documentation; retain original field meaning
+Fig03_baseline_frequency_audit.csv,nominal_event_fraction,numeric,See source-data or external-dataset documentation; retain original field meaning
+Fig03_baseline_frequency_audit.csv,expectation,text,See source-data or external-dataset documentation; retain original field meaning
+Fig03_baseline_frequency_audit.csv,observed_fraction,numeric,See source-data or external-dataset documentation; retain original field meaning
+Fig03_baseline_frequency_audit.csv,observed_days_per_year_equivalent,numeric,See source-data or external-dataset documentation; retain original field meaning
+Fig03_baseline_frequency_audit.csv,n_years,integer,See source-data or external-dataset documentation; retain original field meaning
+Fig03_baseline_frequency_audit_full.csv,hazard,text,Legacy internal hazard identifier; map through hazard_variant_definition.csv
+Fig03_baseline_frequency_audit_full.csv,model,text,Climate model or ensemble label
+Fig03_baseline_frequency_audit_full.csv,year,integer,Calendar year
+Fig03_baseline_frequency_audit_full.csv,month,integer,"Calendar month, 1-12"
+Fig03_baseline_frequency_audit_full.csv,mean_event_days,numeric,Represented-area-weighted mean event-day count
+Fig03_baseline_frequency_audit_full.csv,days_in_month,integer,See source-data or external-dataset documentation; retain original field meaning
+Fig03_baseline_frequency_audit_full.csv,observed_fraction,numeric,See source-data or external-dataset documentation; retain original field meaning
+Fig03_baseline_frequency_audit_full.csv,threshold_layer,text,See source-data or external-dataset documentation; retain original field meaning
+Fig03_baseline_frequency_audit_full.csv,threshold_probability,numeric,See source-data or external-dataset documentation; retain original field meaning
+Fig03_baseline_frequency_audit_full.csv,nominal_event_fraction,numeric,See source-data or external-dataset documentation; retain original field meaning
+Fig03_baseline_frequency_audit_full.csv,expectation,text,See source-data or external-dataset documentation; retain original field meaning
+Fig03_reported_event_seasonal_association.csv,hazard,text,Legacy internal hazard identifier; map through hazard_variant_definition.csv
+Fig03_reported_event_seasonal_association.csv,month,integer,"Calendar month, 1-12"
+Fig03_reported_event_seasonal_association.csv,glexis_days,numeric,See source-data or external-dataset documentation; retain original field meaning
+Fig03_reported_event_seasonal_association.csv,reported_events,integer,See source-data or external-dataset documentation; retain original field meaning
+Fig03_reported_event_seasonal_association.csv,source,text,External or internal evidence source
+Fig03_reported_event_seasonal_association.csv,glexis_standardized,numeric,See source-data or external-dataset documentation; retain original field meaning
+Fig03_reported_event_seasonal_association.csv,reports_standardized,numeric,See source-data or external-dataset documentation; retain original field meaning
+Fig04_europe_physical_method_agreement.csv,hazard,text,Legacy internal hazard identifier; map through hazard_variant_definition.csv
+Fig04_europe_physical_method_agreement.csv,evidence,text,See source-data or external-dataset documentation; retain original field meaning
+Fig04_europe_physical_method_agreement.csv,n,integer,See source-data or external-dataset documentation; retain original field meaning
+Fig04_europe_physical_method_agreement.csv,countries,integer,See source-data or external-dataset documentation; retain original field meaning
+Fig04_europe_physical_method_agreement.csv,pearson,numeric,Pearson correlation coefficient
+Fig04_europe_physical_method_agreement.csv,spearman,numeric,Spearman rank correlation coefficient
+Fig04_europe_physical_method_agreement.csv,source,text,External or internal evidence source
+Fig05_validation_evidence_matrix.csv,hazard,text,Legacy internal hazard identifier; map through hazard_variant_definition.csv
+Fig05_validation_evidence_matrix.csv,final_confidence,text,See source-data or external-dataset documentation; retain original field meaning
+Fig05_validation_evidence_matrix.csv,evidence_type,text,See source-data or external-dataset documentation; retain original field meaning
+Fig05_validation_evidence_matrix.csv,assessment,text,See source-data or external-dataset documentation; retain original field meaning
+Fig06_country_coverage_diagnostic.csv,country_iso3,text,ISO-like three-letter country code after Natural Earth fallback handling
+Fig06_country_coverage_diagnostic.csv,country_name,text,Natural Earth country name
+Fig06_country_coverage_diagnostic.csv,region,text,Natural Earth region
+Fig06_country_coverage_diagnostic.csv,mean_valid_area_fraction,numeric,See source-data or external-dataset documentation; retain original field meaning
+Fig06_country_coverage_diagnostic.csv,minimum_valid_area_fraction,numeric,See source-data or external-dataset documentation; retain original field meaning
+Fig06_country_coverage_diagnostic.csv,included,text,See source-data or external-dataset documentation; retain original field meaning
+FigS_drought_wind_variant_sensitivity.csv,hazard,text,Legacy internal hazard identifier; map through hazard_variant_definition.csv
+FigS_drought_wind_variant_sensitivity.csv,variant,text,Internal or public-facing variant identifier
+FigS_drought_wind_variant_sensitivity.csv,annual_days,numeric,See source-data or external-dataset documentation; retain original field meaning
+FigS_drought_wind_variant_sensitivity.csv,role,text,See source-data or external-dataset documentation; retain original field meaning
+FigS_emdat_exclusion_audit.csv,mapping,text,See source-data or external-dataset documentation; retain original field meaning
+FigS_emdat_exclusion_audit.csv,hazard,text,Legacy internal hazard identifier; map through hazard_variant_definition.csv
+FigS_emdat_exclusion_audit.csv,reason,text,See source-data or external-dataset documentation; retain original field meaning
+FigS_emdat_exclusion_audit.csv,records,integer,See source-data or external-dataset documentation; retain original field meaning
+FigS_emdat_positive_only_binned.csv,hazard,text,Legacy internal hazard identifier; map through hazard_variant_definition.csv
+FigS_emdat_positive_only_binned.csv,bin,text,See source-data or external-dataset documentation; retain original field meaning
+FigS_emdat_positive_only_binned.csv,model_days,numeric,See source-data or external-dataset documentation; retain original field meaning
+FigS_emdat_positive_only_binned.csv,reports,numeric,See source-data or external-dataset documentation; retain original field meaning
+FigS_emdat_positive_only_binned.csv,n,integer,See source-data or external-dataset documentation; retain original field meaning
+FigS_emdat_positive_only_drought_annual.csv,bin,text,See source-data or external-dataset documentation; retain original field meaning
+FigS_emdat_positive_only_drought_annual.csv,model_days,numeric,See source-data or external-dataset documentation; retain original field meaning
+FigS_emdat_positive_only_drought_annual.csv,reports,numeric,See source-data or external-dataset documentation; retain original field meaning
+FigS_emdat_positive_only_drought_annual.csv,n,integer,See source-data or external-dataset documentation; retain original field meaning
+FigS_emdat_report_coverage_map.csv,country_iso3,text,ISO-like three-letter country code after Natural Earth fallback handling
+FigS_emdat_report_coverage_map.csv,strict_reports,integer,See source-data or external-dataset documentation; retain original field meaning
+FigS_exact_year_nonsynchronous.csv,hazard,text,Legacy internal hazard identifier; map through hazard_variant_definition.csv
+FigS_exact_year_nonsynchronous.csv,evidence,text,See source-data or external-dataset documentation; retain original field meaning
+FigS_exact_year_nonsynchronous.csv,n,integer,See source-data or external-dataset documentation; retain original field meaning
+FigS_exact_year_nonsynchronous.csv,countries,integer,See source-data or external-dataset documentation; retain original field meaning
+FigS_exact_year_nonsynchronous.csv,pearson,numeric,Pearson correlation coefficient
+FigS_exact_year_nonsynchronous.csv,spearman,numeric,Spearman rank correlation coefficient
+FigS_exact_year_nonsynchronous.csv,source,text,External or internal evidence source
+FigS_future_ssp370_scenario_consistency.csv,hazard,text,Legacy internal hazard identifier; map through hazard_variant_definition.csv
+FigS_future_ssp370_scenario_consistency.csv,variant,text,Internal or public-facing variant identifier
+FigS_future_ssp370_scenario_consistency.csv,scenario,text,See source-data or external-dataset documentation; retain original field meaning
+FigS_future_ssp370_scenario_consistency.csv,events,integer,See source-data or external-dataset documentation; retain original field meaning
+FigS_future_ssp370_scenario_consistency.csv,available,integer,See source-data or external-dataset documentation; retain original field meaning
+FigS_future_ssp370_scenario_consistency.csv,mean_seasonal_z,numeric,See source-data or external-dataset documentation; retain original field meaning
+FigS_future_ssp370_scenario_consistency.csv,interpretation,text,Declared evidential interpretation
+FigS_global_seasonal_area_weighted.csv,month,integer,"Calendar month, 1-12"
+FigS_global_seasonal_area_weighted.csv,hazard,text,Legacy internal hazard identifier; map through hazard_variant_definition.csv
+FigS_global_seasonal_area_weighted.csv,variant,text,Internal or public-facing variant identifier
+FigS_global_seasonal_area_weighted.csv,ensemble_mean,numeric,Arithmetic five-model ensemble mean
+FigS_global_seasonal_area_weighted.csv,model_min,numeric,Minimum among model summaries
+FigS_global_seasonal_area_weighted.csv,model_max,numeric,Maximum among model summaries
+FigS_inter_model_spread.csv,country_iso3,text,ISO-like three-letter country code after Natural Earth fallback handling
+FigS_inter_model_spread.csv,hazard,text,Legacy internal hazard identifier; map through hazard_variant_definition.csv
+FigS_inter_model_spread.csv,model_spread,numeric,See source-data or external-dataset documentation; retain original field meaning
+FigS_model_map_gfdl-esm4.csv,model,text,Climate model or ensemble label
+FigS_model_map_gfdl-esm4.csv,country_iso3,text,ISO-like three-letter country code after Natural Earth fallback handling
+FigS_model_map_gfdl-esm4.csv,hazard,text,Legacy internal hazard identifier; map through hazard_variant_definition.csv
+FigS_model_map_gfdl-esm4.csv,variant,text,Internal or public-facing variant identifier
+FigS_model_map_gfdl-esm4.csv,mean_annual_days,numeric,Historical climatological annual event-day count
+FigS_model_map_ipsl-cm6a-lr.csv,model,text,Climate model or ensemble label
+FigS_model_map_ipsl-cm6a-lr.csv,country_iso3,text,ISO-like three-letter country code after Natural Earth fallback handling
+FigS_model_map_ipsl-cm6a-lr.csv,hazard,text,Legacy internal hazard identifier; map through hazard_variant_definition.csv
+FigS_model_map_ipsl-cm6a-lr.csv,variant,text,Internal or public-facing variant identifier
+FigS_model_map_ipsl-cm6a-lr.csv,mean_annual_days,numeric,Historical climatological annual event-day count
+FigS_model_map_mpi-esm1-2-hr.csv,model,text,Climate model or ensemble label
+FigS_model_map_mpi-esm1-2-hr.csv,country_iso3,text,ISO-like three-letter country code after Natural Earth fallback handling
+FigS_model_map_mpi-esm1-2-hr.csv,hazard,text,Legacy internal hazard identifier; map through hazard_variant_definition.csv
+FigS_model_map_mpi-esm1-2-hr.csv,variant,text,Internal or public-facing variant identifier
+FigS_model_map_mpi-esm1-2-hr.csv,mean_annual_days,numeric,Historical climatological annual event-day count
+FigS_model_map_mri-esm2-0.csv,model,text,Climate model or ensemble label
+FigS_model_map_mri-esm2-0.csv,country_iso3,text,ISO-like three-letter country code after Natural Earth fallback handling
+FigS_model_map_mri-esm2-0.csv,hazard,text,Legacy internal hazard identifier; map through hazard_variant_definition.csv
+FigS_model_map_mri-esm2-0.csv,variant,text,Internal or public-facing variant identifier
+FigS_model_map_mri-esm2-0.csv,mean_annual_days,numeric,Historical climatological annual event-day count
+FigS_model_map_ukesm1-0-ll.csv,model,text,Climate model or ensemble label
+FigS_model_map_ukesm1-0-ll.csv,country_iso3,text,ISO-like three-letter country code after Natural Earth fallback handling
+FigS_model_map_ukesm1-0-ll.csv,hazard,text,Legacy internal hazard identifier; map through hazard_variant_definition.csv
+FigS_model_map_ukesm1-0-ll.csv,variant,text,Internal or public-facing variant identifier
+FigS_model_map_ukesm1-0-ll.csv,mean_annual_days,numeric,Historical climatological annual event-day count
+glexis_country_climatology.csv,country_iso3,text,ISO-like three-letter country code after Natural Earth fallback handling
+glexis_country_climatology.csv,country_name,text,Natural Earth country name
+glexis_country_climatology.csv,region,text,Natural Earth region
+glexis_country_climatology.csv,hazard,text,Legacy internal hazard identifier; map through hazard_variant_definition.csv
+glexis_country_climatology.csv,variant,text,Internal or public-facing variant identifier
+glexis_country_climatology.csv,mean_annual_days,numeric,Historical climatological annual event-day count
+glexis_country_climatology.csv,mean_valid_area_fraction,numeric,See source-data or external-dataset documentation; retain original field meaning
+glexis_country_month_climatology.csv,country_iso3,text,ISO-like three-letter country code after Natural Earth fallback handling
+glexis_country_month_climatology.csv,country_name,text,Natural Earth country name
+glexis_country_month_climatology.csv,region,text,Natural Earth region
+glexis_country_month_climatology.csv,month,integer,"Calendar month, 1-12"
+glexis_country_month_climatology.csv,hazard,text,Legacy internal hazard identifier; map through hazard_variant_definition.csv
+glexis_country_month_climatology.csv,variant,text,Internal or public-facing variant identifier
+glexis_country_month_climatology.csv,mean_monthly_days,numeric,Historical climatological monthly event-day count
+glexis_country_month_climatology.csv,mean_affected_fraction,numeric,Historical climatological affected-area fraction
+glexis_country_month_climatology.csv,mean_valid_area_fraction,numeric,See source-data or external-dataset documentation; retain original field meaning
+glexis_country_month_ensemble.csv,hazard,text,Legacy internal hazard identifier; map through hazard_variant_definition.csv
+glexis_country_month_ensemble.csv,country_iso3,text,ISO-like three-letter country code after Natural Earth fallback handling
+glexis_country_month_ensemble.csv,country_name,text,Natural Earth country name
+glexis_country_month_ensemble.csv,region,text,Natural Earth region
+glexis_country_month_ensemble.csv,year,integer,Calendar year
+glexis_country_month_ensemble.csv,month,integer,"Calendar month, 1-12"
+glexis_country_month_ensemble.csv,mean_event_days,numeric,Represented-area-weighted mean event-day count
+glexis_country_month_ensemble.csv,affected_area_fraction,numeric,Fraction of represented valid area with at least one event day
+glexis_country_month_ensemble.csv,valid_area_fraction,numeric,Available represented area divided by reference represented country area
+glexis_country_month_ensemble.csv,model_coverage,integer,Number of climate models contributing
+glexis_country_month_ensemble.csv,model,text,Climate model or ensemble label
+glexis_country_month_ensemble.csv,variant,text,Internal or public-facing variant identifier
+glexis_country_year_ensemble.csv,hazard,text,Legacy internal hazard identifier; map through hazard_variant_definition.csv
+glexis_country_year_ensemble.csv,country_iso3,text,ISO-like three-letter country code after Natural Earth fallback handling
+glexis_country_year_ensemble.csv,country_name,text,Natural Earth country name
+glexis_country_year_ensemble.csv,region,text,Natural Earth region
+glexis_country_year_ensemble.csv,year,integer,Calendar year
+glexis_country_year_ensemble.csv,mean_event_days,numeric,Represented-area-weighted mean event-day count
+glexis_country_year_ensemble.csv,affected_area_fraction,numeric,Fraction of represented valid area with at least one event day
+glexis_country_year_ensemble.csv,valid_area_fraction,numeric,Available represented area divided by reference represented country area
+glexis_country_year_ensemble.csv,model_coverage,integer,Number of climate models contributing
+glexis_country_year_ensemble.csv,model,text,Climate model or ensemble label
+glexis_country_year_ensemble.csv,variant,text,Internal or public-facing variant identifier
+glexis_country_year_model.csv,hazard,text,Legacy internal hazard identifier; map through hazard_variant_definition.csv
+glexis_country_year_model.csv,country_iso3,text,ISO-like three-letter country code after Natural Earth fallback handling
+glexis_country_year_model.csv,country_name,text,Natural Earth country name
+glexis_country_year_model.csv,region,text,Natural Earth region
+glexis_country_year_model.csv,mean_event_days,numeric,Represented-area-weighted mean event-day count
+glexis_country_year_model.csv,available_area_km2,numeric,"Finite represented area used in aggregation, km2"
+glexis_country_year_model.csv,total_area_km2,numeric,"Reference represented country area, km2"
+glexis_country_year_model.csv,valid_area_fraction,numeric,Available represented area divided by reference represented country area
+glexis_country_year_model.csv,model,text,Climate model or ensemble label
+glexis_country_year_model.csv,year,integer,Calendar year
+glexis_country_year_model.csv,variant,text,Internal or public-facing variant identifier
+glexis_global_seasonal_area_weighted.csv,month,integer,"Calendar month, 1-12"
+glexis_global_seasonal_area_weighted.csv,hazard,text,Legacy internal hazard identifier; map through hazard_variant_definition.csv
+glexis_global_seasonal_area_weighted.csv,variant,text,Internal or public-facing variant identifier
+glexis_global_seasonal_area_weighted.csv,ensemble_mean,numeric,Arithmetic five-model ensemble mean
+glexis_global_seasonal_area_weighted.csv,model_min,numeric,Minimum among model summaries
+glexis_global_seasonal_area_weighted.csv,model_max,numeric,Maximum among model summaries
+glexis_global_seasonal_model_area_weighted.csv,model,text,Climate model or ensemble label
+glexis_global_seasonal_model_area_weighted.csv,month,integer,"Calendar month, 1-12"
+glexis_global_seasonal_model_area_weighted.csv,hazard,text,Legacy internal hazard identifier; map through hazard_variant_definition.csv
+glexis_global_seasonal_model_area_weighted.csv,variant,text,Internal or public-facing variant identifier
+glexis_global_seasonal_model_area_weighted.csv,mean_days,numeric,See source-data or external-dataset documentation; retain original field meaning
+glexis_global_year_area_weighted.csv,year,integer,Calendar year
+glexis_global_year_area_weighted.csv,hazard,text,Legacy internal hazard identifier; map through hazard_variant_definition.csv
+glexis_global_year_area_weighted.csv,variant,text,Internal or public-facing variant identifier
+glexis_global_year_area_weighted.csv,ensemble_mean,numeric,Arithmetic five-model ensemble mean
+glexis_global_year_area_weighted.csv,model_min,numeric,Minimum among model summaries
+glexis_global_year_area_weighted.csv,model_max,numeric,Maximum among model summaries
+glexis_global_year_area_weighted.csv,model_sd,numeric,Standard deviation among model summaries
+glexis_global_year_area_weighted.csv,n_models,integer,See source-data or external-dataset documentation; retain original field meaning
+glexis_global_year_area_weighted.csv,anomaly,numeric,Annual ensemble mean minus the full-period mean
+glexis_global_year_model_area_weighted.csv,model,text,Climate model or ensemble label
+glexis_global_year_model_area_weighted.csv,year,integer,Calendar year
+glexis_global_year_model_area_weighted.csv,hazard,text,Legacy internal hazard identifier; map through hazard_variant_definition.csv
+glexis_global_year_model_area_weighted.csv,variant,text,Internal or public-facing variant identifier
+glexis_global_year_model_area_weighted.csv,global_mean_days,numeric,See source-data or external-dataset documentation; retain original field meaning
+physical_reference_europe_country_month.csv,country_iso3,text,ISO-like three-letter country code after Natural Earth fallback handling
+physical_reference_europe_country_month.csv,country_name,text,Natural Earth country name
+physical_reference_europe_country_month.csv,region,text,Natural Earth region
+physical_reference_europe_country_month.csv,month,integer,"Calendar month, 1-12"
+physical_reference_europe_country_month.csv,hazard,text,Legacy internal hazard identifier; map through hazard_variant_definition.csv
+physical_reference_europe_country_month.csv,affected_area_fraction,numeric,Fraction of represented valid area with at least one event day
+physical_reference_europe_country_month.csv,mean_count,numeric,See source-data or external-dataset documentation; retain original field meaning
+physical_reference_europe_country_month.csv,reference_points,integer,See source-data or external-dataset documentation; retain original field meaning
+physical_reference_europe_country_month.csv,year,integer,Calendar year
+reported_event_seasonal_association.csv,hazard,text,Legacy internal hazard identifier; map through hazard_variant_definition.csv
+reported_event_seasonal_association.csv,month,integer,"Calendar month, 1-12"
+reported_event_seasonal_association.csv,glexis_days,numeric,See source-data or external-dataset documentation; retain original field meaning
+reported_event_seasonal_association.csv,reported_events,integer,See source-data or external-dataset documentation; retain original field meaning
+reported_event_seasonal_association.csv,source,text,External or internal evidence source
+reported_event_seasonal_association.csv,glexis_standardized,numeric,See source-data or external-dataset documentation; retain original field meaning
+reported_event_seasonal_association.csv,reports_standardized,numeric,See source-data or external-dataset documentation; retain original field meaning
+user_independent_positive_cases.csv,reference_record_id,text,See source-data or external-dataset documentation; retain original field meaning
+user_independent_positive_cases.csv,source_dataset,text,See source-data or external-dataset documentation; retain original field meaning
+user_independent_positive_cases.csv,evidence_tier,text,See source-data or external-dataset documentation; retain original field meaning
+user_independent_positive_cases.csv,validation_role,text,See source-data or external-dataset documentation; retain original field meaning
+user_independent_positive_cases.csv,year,integer,Calendar year
+user_independent_positive_cases.csv,month,integer,"Calendar month, 1-12"
+user_independent_positive_cases.csv,reference_hazard,text,See source-data or external-dataset documentation; retain original field meaning
+user_independent_positive_cases.csv,glexis_proxy_hazard,text,See source-data or external-dataset documentation; retain original field meaning
+user_independent_positive_cases.csv,country_iso3,text,ISO-like three-letter country code after Natural Earth fallback handling
+user_independent_positive_cases.csv,reported_event_days,integer,See source-data or external-dataset documentation; retain original field meaning
+user_independent_positive_cases.csv,reported_events,integer,See source-data or external-dataset documentation; retain original field meaning
+user_independent_positive_cases.csv,latitude,numeric,See source-data or external-dataset documentation; retain original field meaning
+user_independent_positive_cases.csv,longitude,numeric,See source-data or external-dataset documentation; retain original field meaning
+user_independent_positive_cases.csv,spatial_scope,text,See source-data or external-dataset documentation; retain original field meaning
+user_independent_positive_cases.csv,comparability_class,text,See source-data or external-dataset documentation; retain original field meaning
+user_independent_positive_cases.csv,reference,text,See source-data or external-dataset documentation; retain original field meaning
+user_independent_positive_cases.csv,scientific_limitation,text,See source-data or external-dataset documentation; retain original field meaning

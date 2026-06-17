@@ -1,0 +1,27 @@
+# Large data products
+*.tif
+*.tiff
+*.nc
+*.zip
+*.7z
+
+# Generated document QA
+rendered_*/
+qa_*/
+*.tmp
+~$*
+
+# Local environments
+.DS_Store
+Thumbs.db
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.renv/
+__pycache__/
+*.pyc
+
+# Editor settings
+.vscode/
+.idea/
