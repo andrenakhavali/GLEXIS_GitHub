@@ -91,11 +91,13 @@ Important limitations:
 
 ## Data Availability
 
+The formal GLEXIS data record is available at [DOI: 10.5281/zenodo.20734236](https://doi.org/10.5281/zenodo.20734236).
+
 The main GLEXIS data-link browser is available at:
 
 https://andrenakhavali.github.io/GLEXIS_data_links_public/
 
-The raster GeoTIFF files, tabular CSV products, threshold NetCDF files, and full release metadata are deposited separately from this code repository. Add the final data DOI here once the formal data record is published.
+The raster GeoTIFF files, tabular CSV products, threshold NetCDF files, and full release metadata are deposited separately from this code repository.
 
 See `data/README.md` and `release_metadata/release_file_manifest.csv` for the expected data-package structure.
 
@@ -109,7 +111,7 @@ The production and threshold-generation scripts are released in this repository 
 
 ## Citation
 
-Please cite the GLEXIS data descriptor manuscript and the archived software release. Repository-level citation metadata are provided in `CITATION.cff`.
+Please cite the GLEXIS data descriptor manuscript, the archived software release, and the formal data record: [DOI: 10.5281/zenodo.20734236](https://doi.org/10.5281/zenodo.20734236). Repository-level citation metadata are provided in `CITATION.cff`.
 
 ## License
 

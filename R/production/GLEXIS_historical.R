@@ -30,7 +30,7 @@ pkg_metadata <- list(
   email = "nakhavali@iiasa.ac.at",
   institution = "International Institute for Applied Systems Analysis (IIASA)",
   license = "CC BY 4.0",
-  doi = "10.5281/zenodo.XXXXXXX",
+  doi = "10.5281/zenodo.20734236",
   reference = "Nakhavali et al. (2025) GLEXIS: A Global Extreme Events Dataset from ISIMIP3b"
 )
 
