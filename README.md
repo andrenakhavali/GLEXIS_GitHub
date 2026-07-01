@@ -116,3 +116,7 @@ Please cite the GLEXIS data descriptor manuscript, the archived software release
 ## License
 
 Code is released under the MIT License. Data licensing is stated separately in the formal data repository record.
+
+## Documentation Verification
+
+The indicator descriptions in this README were last cross-checked against the production scripts in `R/production/` on 2026-07-01, confirming the drought indicator's daily-resolution standardization and monthly aggregation match the implemented code.
