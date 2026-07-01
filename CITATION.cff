@@ -7,7 +7,31 @@ url: "https://doi.org/10.5281/zenodo.20734236"
 date-released: 2026-06-15
 authors:
   - family-names: Nakhavali
-    given-names: "Dr. Mahdi (Andre)"
+    given-names: "Mahdi (André)"
+    affiliation: IIASA
+  - family-names: Derci Augustynczik
+    given-names: Andrey Lessa
+    affiliation: IIASA
+  - family-names: Di Fulvio
+    given-names: Fulvio
+    affiliation: IIASA
+  - family-names: Singh
+    given-names: Rupesh
+    affiliation: IIASA
+  - family-names: Palazzo
+    given-names: Amanda
+    affiliation: IIASA
+  - family-names: Pruckner
+    given-names: Sara
+    affiliation: IIASA
+  - family-names: Golic
+    given-names: Dejana
+    affiliation: IIASA
+  - family-names: Talluto
+    given-names: Lauren
+    affiliation: IIASA
+  - family-names: Havlík
+    given-names: Petr
     affiliation: IIASA
 
 license: MIT
