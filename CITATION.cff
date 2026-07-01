@@ -6,8 +6,9 @@ doi: 10.5281/zenodo.20734236
 url: "https://doi.org/10.5281/zenodo.20734236"
 date-released: 2026-06-15
 authors:
-  - family-names: Mahdi
-    given-names: "Dr. (Andre)"
+  - family-names: Nakhavali
+    given-names: "Dr. Mahdi (Andre)"
+    affiliation: IIASA
 
 license: MIT
 keywords:
