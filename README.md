@@ -24,9 +24,9 @@ GLEXIS includes five headline meteorological hazard indicators:
 - **Cold-extreme days**: daily minimum near-surface air temperature below the local historical p01 threshold. This is not a fixed-threshold frost-day index.
 - **Heavy-rain days**: daily precipitation above the local historical p95 threshold and at least 1 mm d-1. This is a meteorological precipitation indicator, not a flood indicator.
 - **High-wind days**: daily mean near-surface wind speed above the local historical p95 threshold and at least 8 m s-1. This uses daily mean wind speed, not observed gusts.
-- **Standardized water-balance drought indicator**: annual precipitation-minus-PET water balance standardized against the 1990-2010 baseline and classified below the local p05 threshold. This is an annual water-balance deficit indicator, not canonical SPEI-3.
+- **Standardized water-balance drought indicator**: daily precipitation-minus-PET water balance, standardized within each calendar year against that year's own daily mean and standard deviation, and classified below a fixed p05 threshold derived from the 1990-2010 baseline. This is a within-year relative dry-day screening metric, not canonical SPEI-3.
 
-The drought indicator is annual in resolution. In the monthly raster archive, a drought-classified year is represented uniformly across all 12 months for archive consistency.
+The drought indicator is daily in resolution, structurally parallel to the other four indicators: flagged days are aggregated to genuine monthly counts in the raster archive, not an annual flag repeated across months.
 
 ## Products
 

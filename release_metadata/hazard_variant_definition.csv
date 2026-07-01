@@ -2,6 +2,6 @@ public_id,public_label,source_variant,implemented_criterion,threshold,additional
 cold,Cold-extreme days,cold_main,tasmin < spatial p01,p01,none beyond common domain,Lower-tail p01 indicator; legacy documentation stated p10 and the baseline audit supports p01
 heat,Hot days,heat_main,tasmax > spatial p95,p95,none beyond common domain,No run-length logic; never label heatwave
 rain,Heavy-rain days,rain_main,pr > spatial p95 and pr >= 1 mm d-1,p95,production-domain screen: p95 precipitation threshold <5 mm d-1 excluded,Not a flood indicator
-water_balance,Standardized water-balance lower-tail days,drought_q2_main (legacy source alias),annual within-cell z(pr-PET) < deposited p05 layer from the legacy baseline water-balance/SPEI-3 threshold workflow,legacy-workflow p05 layer,threshold-field lower and upper screening heuristics,Not canonical SPEI and not a general drought metric
+water_balance,Standardized water-balance lower-tail days,drought_q2_main (legacy source alias),daily within-cell z(pr-PET) standardized against that year's own daily mean/SD < deposited p05 layer from the legacy baseline water-balance/SPEI-3 threshold workflow,legacy-workflow p05 layer,threshold-field lower and upper screening heuristics,Not canonical SPEI and not a general drought metric
 wind,High-wind days,wind_main,sfcWind > spatial p95 and sfcWind >= 8 m s-1,p95,common land domain,Not a storm-object or gust product
 wind_gust,Derived-gust sensitivity days,wind_gust,derived gust > selected upper-tail threshold,sensitivity,common land domain,Not a headline product
